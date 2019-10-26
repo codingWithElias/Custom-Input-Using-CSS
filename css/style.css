@@ -1,0 +1,80 @@
+body{
+	background: url(../img/bg.jpg);
+	background-size: cover;
+}
+.input-holder {
+	width: 400px;
+	padding: 10px;
+	margin: 50px auto;
+}
+.input-1 {
+	border: 2px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	outline: none;
+	border-radius: 5px;
+	display: block;
+}
+
+.input-1:focus{
+	border-color: #555;
+}
+
+
+.input-2 {
+	background: transparent;
+	border: 2px solid #4CAF50;
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	outline: none;
+	border-radius: 5px;
+	display: block;
+	color: #ccc;
+}
+
+.input-2:focus{
+	border-color: #555;
+}
+
+
+.input-3 {
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #008CBA;
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	outline: none;
+	display: block;
+	color: #ccc;
+}
+
+.input-3:focus{
+	border-color: #555;
+}
+.input-group{
+	position: relative;
+}
+.input-group input {
+	background: transparent;
+	border: 2px solid #888;
+	width: 93%;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	outline: none;
+	display: block;
+	color: #ccc;
+	padding-left: 40px;
+}
+.input-group img {
+	width: 27px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.input-group  input:focus{
+	border-color: #555;
+}
